@@ -1,0 +1,11 @@
+
+
+aside div.radioOpcoes{
+   color: lightblue;
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}

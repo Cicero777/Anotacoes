@@ -1,0 +1,61 @@
+
+
+li.info_bloco_notas div{
+   display: flex;
+   justify-content: space-between;
+}
+
+li.info_bloco_notas{
+   background: honeydew;
+   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   padding: 20px 20px 10px 20px;
+
+}
+
+li.info_bloco_notas strong{
+   display: block;
+   font-size: 16px;
+   color: gray;
+}
+
+li.info_bloco_notas div div{
+   color: gray;
+   cursor: pointer;
+}
+
+li.info_bloco_notas div div:hover{
+   color: salmon;
+   transition: 0.2s;
+}
+
+li.info_bloco_notas textarea{
+   padding: 7px;
+   margin-top: 7px;
+   margin-bottom: 25px;
+   margin-right: 1px;
+   width: 340px;
+   height: 130px;
+   font-size: 14px;
+   color: gray;
+   border: 0;
+   background: honeydew;
+   resize: none;
+}
+
+li.info_bloco_notas textarea:hover{
+   cursor: default;
+}
+
+li.info_bloco_notas span{
+   color: gray;
+   cursor: pointer;
+}
+
+li.info_bloco_notas span:hover{
+   color: salmon;
+   transition: 0.2s;
+   
+}
+
+
